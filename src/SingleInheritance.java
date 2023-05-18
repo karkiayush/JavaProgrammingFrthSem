@@ -34,9 +34,11 @@ class computerScienceEngineering extends Engineering {
     }
 
     void displayInformation() {
-        System.out.println("Hello, it's me " + name + " who is " + level + " level student currently studying " + stream + " " +
-                "which is " + courseDuration + " years course and i'm in " + semester + " semester where i've to study " + noOfSubjects +
-                " subjects in total");
+        System.out.println(
+                "Hello, it's me " + name + " who is " + level + " level student currently studying " + stream + " " +
+                        "which is " + courseDuration + " years course and i'm in " + semester
+                        + " semester where i've to study " + noOfSubjects +
+                        " subjects in total");
     }
 }
 
@@ -50,5 +52,3 @@ public class SingleInheritance {
     }
 
 }
-
-
