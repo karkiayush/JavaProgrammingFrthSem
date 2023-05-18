@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2905d763-8306-4941-920d-fe5aad093cef" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/first/First.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/first/second/Second.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Classwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Classwork.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +39,12 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "onboarding.tips.debug.path": "/home/aayush/IdeaProjects/FourthSemJava/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Classwork">
     <configuration name="Classwork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Classwork" />
       <module name="FourthSemJava" />
@@ -61,8 +61,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingleInheritance" />
         <item itemvalue="Application.Classwork" />
+        <item itemvalue="Application.SingleInheritance" />
       </list>
     </recent_temporary>
   </component>
@@ -87,5 +87,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

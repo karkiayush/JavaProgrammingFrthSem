@@ -30,7 +30,6 @@ class ThirdClass {
     }
 }
 
-
 //Driver class
 public class Classwork {
     public static void main(String[] args) {
@@ -43,7 +42,6 @@ public class Classwork {
         SecondClass sc = new SecondClass();
         sc.firstsFun();
         sc.secondsFun();
-
         ThirdClass tc = new ThirdClass();
         FirstClass.firstFun();
         fc.secondFun();
