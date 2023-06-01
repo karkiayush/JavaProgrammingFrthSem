@@ -10,6 +10,7 @@ class Engineering {
     void userInput() {
         System.out.println("What is you name ? ");
         name = sc.nextLine();
+        System.out.println();
 
         System.out.println("Which engineering do you like the most ?");
         stream = sc.nextLine();

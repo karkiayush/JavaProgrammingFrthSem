@@ -34,7 +34,6 @@ class ThirdClass {
 public class Classwork {
     public static void main(String[] args) {
         System.out.println("Classwork task");
-
         FirstClass fc = new FirstClass();
         FirstClass.firstFun();
         fc.secondFun();
@@ -42,8 +41,12 @@ public class Classwork {
         SecondClass sc = new SecondClass();
         sc.firstsFun();
         sc.secondsFun();
+
         ThirdClass tc = new ThirdClass();
         FirstClass.firstFun();
         fc.secondFun();
     }
 }
+
+
+//Note: The main difference in abstract and interface is that in a single class multiple interface can be implemented but in the Abstract class no multiple can be implemented
