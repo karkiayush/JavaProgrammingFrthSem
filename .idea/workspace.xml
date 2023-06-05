@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2905d763-8306-4941-920d-fe5aad093cef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/A.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AbstractCasting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/B.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Child.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DomesticAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GfgTypecasting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GfgTypecasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Janawar.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaExceptionFst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaExceptionSec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LabCode/JavaInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LabCode/JavaReflection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Parent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TtypeCasting.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TtypeCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabCode/TempReflection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AbstractCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractCasting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnonymousInnerClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnonymousInnerClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MultilevelInheritance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LabCode/JavaReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LabCode/JavaReflection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
