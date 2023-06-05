@@ -1,7 +1,7 @@
 //If we define the method of a class while making its instance,such class are Anonymous Inner Class
-/*They are used when we have a single method in a class and if we wanna reuse that method for any other work,
+/*They are used when we have a single method in a class and if we want to reuse that method for any other work,
         in such condition Anonymous Inner Class is used */
-class A {
+class AB {
     public void show() {
         System.out.println("A");
     }
@@ -9,7 +9,7 @@ class A {
 
 public class AnonymousInnerClass {
     public static void main(String[] args) {
-        A obj = new A() {
+        AB obj = new AB() {
             void display(){
                 System.out.println("Hello we are displaying some content");
             }
