@@ -12,11 +12,12 @@ class Cow extends Janawar {
     }
 }
 
-public class AbstractCasting  {
+public class AbstractCasting {
     public static void main(String[] args) {
         // upcasting
         Janawar da = new Cow();// obj of Cow referred to Janawar.
-        da.makeSound();//since the makeSound() method is overridden, so the string "Baah" will be printed on console
+        da.makeSound();// since the makeSound() method is overridden, so the string "Baah" will be
+                       // printed on console
 
         // downcasting
         Cow gai = (Cow) da;
