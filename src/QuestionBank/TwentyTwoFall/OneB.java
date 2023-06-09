@@ -85,9 +85,9 @@ public class OneB {
             // Lets obtain the class object
             Class<?> class1 = obj.getClass();
             // Accessing the private methods
-            Method privateMethod = class1.getDeclaredMethod("privateMethod");
-            privateMethod.setAccessible(true);
-            privateMethod.invoke(obj);
+            Method privateMethod1 = class1.getDeclaredMethod("privateMethod");
+            privateMethod1.setAccessible(true);
+            privateMethod1.invoke(obj);
         }
 
         catch (NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
