@@ -1,3 +1,4 @@
+package ClassCode;
 // Parent class 
 class A {
     int age;

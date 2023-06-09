@@ -1,3 +1,4 @@
+package ClassCode;
 //If we define the method of a class while making its instance,such class are Anonymous Inner Class
 /*They are used when we have a single method in a class and if we want to reuse that method for any other work,
         in such condition Anonymous Inner Class is used */

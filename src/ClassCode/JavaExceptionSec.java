@@ -1,3 +1,4 @@
+package ClassCode;
 /*MAKING THE CUSTOM EXCEPTION*/
 
 

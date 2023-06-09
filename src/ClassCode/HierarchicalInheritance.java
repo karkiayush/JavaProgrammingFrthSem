@@ -1,3 +1,4 @@
+package ClassCode;
 class Computer {
     void compute() {
         String name = "computer";

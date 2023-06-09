@@ -1,3 +1,4 @@
+package ClassCode;
 //Driver code
 public class JavaExceptionFst {
     public static void main(String[] args) {

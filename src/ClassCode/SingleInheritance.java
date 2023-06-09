@@ -1,3 +1,4 @@
+package ClassCode;
 import java.util.Scanner;
 
 class Engineering {

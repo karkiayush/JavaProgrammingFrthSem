@@ -1,3 +1,4 @@
+package ClassCode;
 class FirstClass {
     static void firstFun() {
         System.out.println("Output of first function");
