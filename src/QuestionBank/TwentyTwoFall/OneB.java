@@ -1,6 +1,8 @@
 package QuestionBank.TwentyTwoFall;
 //Write a java program that does the reflective operation of accessing a private method of class
 
+import java.io.File;
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
@@ -12,8 +14,6 @@ import java.lang.reflect.Method;
         (i).Using the .class syntax: For example, Class<MyClass> clazz = MyClass.class;
 
         (ii)Using the getClass() method: For example, MyClass obj = new MyClass(); Class<? extends MyClass> clazz = obj.getClass();
-
-        (iii)Using the getClass() method: For example, MyClass obj = new MyClass(); Class<? extends MyClass> clazz = obj.getClass();
 
 
 2. ACCESSING CLASS MEMBERS:
@@ -71,28 +71,44 @@ Remember to handle exceptions appropriately, as reflection operations can throw 
 */
 
 class MyClass {
+    private String privateField = "This is a private field";
+    private int value = 11;
+
     private void privateMethod() {
-        System.out.println("This is a private methods");
+        System.out.println("This is a private method");
     }
 }
 
-// Driver code
 public class OneB {
     public static void main(String[] args) {
         MyClass obj = new MyClass();
 
         try {
-            // Lets obtain the class object
+            // Obtain the class object
             Class<?> class1 = obj.getClass();
-            // Accessing the private methods
-            Method privateMethod1 = class1.getDeclaredMethod("privateMethod");
-            privateMethod1.setAccessible(true);
-            privateMethod1.invoke(obj);
-        }
 
-        catch (NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
+            // Accessing the private field
+            Field field1 = class1.getDeclaredField("privateField");
+            field1.setAccessible(true);
+
+            Field field2 = class1.getDeclaredField("value");
+            field2.setAccessible(true);
+
+            // Accessing the private method
+            Method method1 = class1.getDeclaredMethod("privateMethod");
+            method1.setAccessible(true);
+
+            // Retrieving and printing the value of the private field
+            String fieldValue = (String) field1.get(obj);
+            System.out.println(fieldValue);
+
+            int fieldvalue2 = (int) field2.get(obj);
+            System.out.println(fieldvalue2);
+
+            // Invoking the private method
+            method1.invoke(obj);
+        } catch (NoSuchFieldException | NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
             e.printStackTrace();
         }
-
     }
 }
