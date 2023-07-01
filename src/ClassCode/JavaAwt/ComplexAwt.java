@@ -4,27 +4,43 @@ import java.awt.*;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class ComplexAwt extends Frame {
+public class ComplexAwt {
 
     public ComplexAwt() {
-        setTitle("Demo UI");
+        Frame frame = new Frame("Demo UI");
         /* Buttons */
         Button btn = new Button("Click me");
         // setting the position of button
         btn.setBounds(40, 50, 100, 50);
-        add(btn);
+        btn.setBackground(Color.PINK);
+        btn.setForeground(Color.white);
 
-        setLayout(null);
 
-        addWindowListener(new WindowAdapter() {
+        /*Adding label: a simple text or any textual content*/
+        Label label = new Label("Label is textual content");
+        label.setBounds(20, 200, 120, 40);
+        label.setForeground(Color.black);
+        label.setBackground(Color.blue);
+
+        TextField tf = new TextField();
+        tf.setBounds(200, 40, 100, 30);
+        tf.setBackground(Color.green);
+
+        /*setlayout(null) sets the border to the button*/
+        frame.setLayout(null);
+
+        frame.addWindowListener(new WindowAdapter() {
             public void windowClosing(WindowEvent e) {
-                dispose();
+                frame.dispose();
             }
         });
 
         /* These things needs to be at last */
-        setSize(400, 400);
-        setVisible(true);
+        frame.add(btn);
+        frame.add(label);
+        frame.add(tf);
+        frame.setSize(400, 400);
+        frame.setVisible(true);
     }
 
     public static void main(String[] args) {

@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2905d763-8306-4941-920d-fe5aad093cef" name="Changes" comment="Reflection is learned">
-      <change afterPath="$PROJECT_DIR$/src/ClassCode/JavaAwt/AwtFirst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassCode/JavaAwt/ComplexAwt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/diffPackage/ProtSubClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diffPackage/ProtSubClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/termtestI/AbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/termtestI/termtestI/AbstractClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/termtestI/Hierarchical_Inheritance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/termtestI/termtestI/Hierarchical_Inheritance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/termtestI/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/termtestI/termtestI/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/termtestI/MultipleInheitancedemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/termtestI/ProtectedAccessModifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/termtestI/termtestI/ProtectedAccessModifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/termtestI/SubClassProt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/termtestI/termtestI/SubClassProt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassCode/JavaAwt/ComplexAwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassCode/JavaAwt/ComplexAwt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
