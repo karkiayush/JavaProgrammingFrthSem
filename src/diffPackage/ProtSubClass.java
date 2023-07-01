@@ -1,6 +1,6 @@
 package diffPackage;
 
-import termtestI.ProtectedAccessModifier;
+import termtestI.termtestI.ProtectedAccessModifier;
 
 //Accessed by the subclass of diff package
 public class ProtSubClass extends ProtectedAccessModifier {

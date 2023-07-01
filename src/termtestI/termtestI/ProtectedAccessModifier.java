@@ -1,4 +1,4 @@
-package termtestI;
+package termtestI.termtestI;
 
 // import javax.sound.sampled.SourceDataLine;
 

@@ -1,4 +1,4 @@
-package termtestI;
+package termtestI.termtestI;
 
 abstract class Sunstar {
     abstract void printInfo();

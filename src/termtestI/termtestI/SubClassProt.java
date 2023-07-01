@@ -1,4 +1,4 @@
-package termtestI;
+package termtestI.termtestI;
 
 // With in same package 
 public class SubClassProt extends ProtectedAccessModifier {

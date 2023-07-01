@@ -1,4 +1,4 @@
-package termtestI;
+package termtestI.termtestI;
 
 interface InterfaceA {
     void display();

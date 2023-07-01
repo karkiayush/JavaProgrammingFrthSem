@@ -1,4 +1,4 @@
-package termtestI;
+package termtestI.termtestI;
 
 // Example of hierarchical inheritance 
 // Superclass
