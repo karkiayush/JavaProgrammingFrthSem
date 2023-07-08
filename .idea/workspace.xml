@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2905d763-8306-4941-920d-fe5aad093cef" name="Changes" comment="Reflection is learned">
-      <change afterPath="$PROJECT_DIR$/src/ClassCode/JavaSwing/SwingButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LabCode/AwtLab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LabCode/LabWorkAwt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LabCode/LabworkPop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClassCode/JavaSwing/WindowListenerActionListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ClassCode/JavaAwt/ComplexAwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassCode/JavaAwt/ComplexAwt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,21 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/aayush/IdeaProjects/FourthSemJava/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "onboarding.tips.debug.path": "/home/aayush/IdeaProjects/FourthSemJava/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Console Font"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -64,7 +60,7 @@
       <recent name="termtestI" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.WindowListenerActionListener">
     <configuration name="AwtFirst" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClassCode.JavaAwt.AwtFirst" />
       <module name="FourthSemJava" />
@@ -100,13 +96,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JavaReflectionSec" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaReflectionSec" />
-      <module name="FourthSemJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,13 +139,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WindowListenerActionListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassCode.JavaSwing.WindowListenerActionListener" />
+      <module name="FourthSemJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ClassCode.JavaSwing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WindowListenerActionListener" />
         <item itemvalue="Application.LabWorkAwt (2)" />
         <item itemvalue="Application.LabWorkAwt (1)" />
         <item itemvalue="Application.LabWorkAwt" />
         <item itemvalue="Application.AwtLab" />
-        <item itemvalue="Application.JavaReflectionSec" />
       </list>
     </recent_temporary>
   </component>
