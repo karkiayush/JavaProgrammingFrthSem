@@ -39,6 +39,8 @@ public class ComplexAwt {
         frame.add(btn);
         frame.add(label);
         frame.add(tf);
+
+        //Code to make the frame to be visible
         frame.setSize(400, 400);
         frame.setVisible(true);
     }

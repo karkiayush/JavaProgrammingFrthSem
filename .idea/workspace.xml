@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2905d763-8306-4941-920d-fe5aad093cef" name="Changes" comment="Reflection is learned">
+      <change afterPath="$PROJECT_DIR$/src/ClassCode/JavaSwing/SwingButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabCode/AwtLab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabCode/LabWorkAwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LabCode/LabworkPop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ClassCode/JavaAwt/ComplexAwt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ClassCode/JavaAwt/ComplexAwt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,8 +78,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JavaInterface (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LabCode.JavaInterface" />
+    <configuration name="AwtLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LabCode.AwtLab" />
       <module name="FourthSemJava" />
       <extension name="coverage">
         <pattern>
@@ -106,10 +111,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LabWorkAwt (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LabCode.LabWorkAwt" />
+      <module name="FourthSemJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LabCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LabWorkAwt (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LabCode.LabWorkAwt" />
+      <module name="FourthSemJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LabCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LabWorkAwt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LabCode.LabWorkAwt" />
+      <module name="FourthSemJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LabCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LabWorkAwt (2)" />
+        <item itemvalue="Application.LabWorkAwt (1)" />
+        <item itemvalue="Application.LabWorkAwt" />
+        <item itemvalue="Application.AwtLab" />
         <item itemvalue="Application.JavaReflectionSec" />
-        <item itemvalue="Application.JavaInterface (2)" />
       </list>
     </recent_temporary>
   </component>
