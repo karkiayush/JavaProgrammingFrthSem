@@ -35,7 +35,7 @@ public class SwingFirst {
          * frame.getContentPane().setBackground(new Color(0, 10, 0));
          * 
          * 
-         * For the hex value, subtitute the rgb value with hex value
+         * For the hex value, subtitute the rgb value with hex
          */
 
         /* making the whole root panel to visible */
