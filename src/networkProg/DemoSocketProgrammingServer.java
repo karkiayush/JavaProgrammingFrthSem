@@ -1,7 +1,13 @@
 package networkProg;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.nio.Buffer;
+
+import javax.print.event.PrintEvent;
 
 /**
  * DemoSocketProgrammingServer
@@ -22,14 +28,41 @@ public class DemoSocketProgrammingServer {
              * 
              */
             Socket soc = ss.accept();
+            System.out.println(soc);
             System.out.println("Connection established");
+
+            // reading the server input
+            BufferedReader in = new BufferedReader(new InputStreamReader(soc.getInputStream()));
+
+            String str = in.readLine();
+            StringBuilder sb = new StringBuilder(str);
+            sb.reverse();
+            String revString = sb.toString();
+
+            PrintWriter out = new PrintWriter(soc.getOutputStream(), true);
+
+            if (str.equals(revString)) {
+
+                out.println("Yes palindrome String");
+            } else {
+                out.println("No not a palindrome");
+            }
 
             // soc.close();
             // ss.close();
         } catch (Exception e) {
             e.printStackTrace();
-
         }
 
     }
 }
+
+/*
+ * streams are used for reading or writing data. There are 2 types of strems :
+ * i> InputStreams: for reading data
+ * ii> OutputStreams: for writing data
+ * 
+ * 
+ * 
+ * 
+ */
