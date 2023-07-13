@@ -23,6 +23,9 @@ public class DemoSocketProgrammingServer {
              */
             Socket soc = ss.accept();
             System.out.println("Connection established");
+
+            // soc.close();
+            // ss.close();
         } catch (Exception e) {
             e.printStackTrace();
 
