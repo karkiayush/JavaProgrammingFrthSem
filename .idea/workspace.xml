@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2905d763-8306-4941-920d-fe5aad093cef" name="Changes" comment="Reflection is learned">
+      <change afterPath="$PROJECT_DIR$/src/networkProg/networkProgChatApp/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/networkProg/networkProgChatApp/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JDBC/FirstJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JDBC/FirstJdbc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <recent name="termtestI" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AwtFirst">
+  <component name="RunManager">
     <configuration name="AwtFirst" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ClassCode.JavaAwt.AwtFirst" />
       <module name="FourthSemJava" />
