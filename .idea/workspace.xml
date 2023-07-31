@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2905d763-8306-4941-920d-fe5aad093cef" name="Changes" comment="Reflection is learned">
-      <change afterPath="$PROJECT_DIR$/src/networkProg/networkProgChatApp/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/networkProg/networkProgChatApp/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networkProg/networkProgChatApp/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networkProg/networkProgChatApp/Server.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$PROJECT_DIR$/../../../Program Files/Java/jdk-20/lib/src.zip!/java.desktop/java/awt/event/WindowAdapter.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />

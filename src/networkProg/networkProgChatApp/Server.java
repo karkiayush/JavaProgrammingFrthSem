@@ -60,5 +60,10 @@ public class Server implements Runnable {
                 e.printStackTrace();
             }
         }
+
+        //inorder to send something to the client via the connection handler we need to add function here.
+        public void sendMessage(String message){
+            out.print(message);
+        }
     }
 }
