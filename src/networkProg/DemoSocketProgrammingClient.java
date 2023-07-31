@@ -1,4 +1,7 @@
-/*Connection is setup using the TCP Connection*/
+/*Connection is setup using the TCP Connection
+ * 
+ * THis is code of the client
+*/
 
 package networkProg;
 

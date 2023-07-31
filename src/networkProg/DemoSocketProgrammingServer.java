@@ -1,3 +1,5 @@
+
+// THis is server code 
 package networkProg;
 
 import java.io.BufferedReader;

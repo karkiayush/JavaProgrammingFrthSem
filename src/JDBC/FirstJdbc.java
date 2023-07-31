@@ -1,6 +1,5 @@
 package JDBC;
 
-import javax.swing.plaf.nimbus.State;
 import java.sql.*;
 
 public class FirstJdbc {
@@ -10,23 +9,22 @@ public class FirstJdbc {
         String username = "root";
         String password = "";
         try {
-            //loading the driver class
+            // loading the driver class
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            //setting up the connection
+            // setting up the connection
             Connection connection = DriverManager.getConnection(url, username, password);
 
-            //creation of statement
+            // creation of statement
             Statement statement = connection.createStatement();
 
-            //query
+            // query
             ResultSet resultSet = statement.executeQuery("select * from student");
 
             while (resultSet.next()) {
                 System.out.println(resultSet.getInt(1) + " " + resultSet.getString(2) + " " + resultSet.getInt(3));
             }
             connection.close();
-
 
         } catch (Exception e) {
             e.printStackTrace();
