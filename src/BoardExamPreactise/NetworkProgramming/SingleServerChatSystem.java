@@ -31,6 +31,7 @@ public class SingleServerChatSystem {
                 out.println(serverInput);
                 System.out.println();
             }
+            ss.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
