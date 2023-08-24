@@ -21,7 +21,7 @@ public class EchoClient {
             wr.println(range);
 
             // Reading the fibonacci series
-            BufferedReader fbr = new BufferedReader(new InputStreamReader(System.in));
+            BufferedReader fbr = new BufferedReader(new InputStreamReader(soc.getInputStream()));
             String receiverArray = fbr.readLine();
             String[] fiboArray = receiverArray.split(", ");
 
