@@ -1,8 +1,8 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
-import java.net.Socket;
+package BoardExamPreactise.NetworkProgramming;
+
+import java.io.*;
+import java.net.*;
+import java.util.*;
 
 public class MultiClientChatClient {
     private static final String SERVER_IP = "127.0.0.1";

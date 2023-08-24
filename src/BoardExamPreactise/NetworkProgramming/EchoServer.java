@@ -14,11 +14,12 @@ public class EchoServer {
             BufferedReader br = new BufferedReader(new InputStreamReader(soc.getInputStream()));
 
             String userInput = br.readLine();
+            System.out.println(userInput);
             int range = Integer.parseInt(userInput);
             int fn = 0;
             int sn = 1;
             int tn;
-            int[] fiboSeries = new int[range];
+            int[] fiboSeries = new int[range + 1];
             fiboSeries[0] = fn;
             fiboSeries[1] = sn;
 
