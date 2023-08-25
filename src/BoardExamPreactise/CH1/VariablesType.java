@@ -1,3 +1,4 @@
+package BoardExamPreactise.CH1;
 /**
  * VariablesType
  */

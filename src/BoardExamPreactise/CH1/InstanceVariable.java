@@ -1,3 +1,4 @@
+package BoardExamPreactise.CH1;
 public class InstanceVariable {
     int y; // This is an instance variable
 
