@@ -28,6 +28,7 @@ public class SevenTeenFallThreeA {
         // Saving students to file
         try {
             ObjectOutputStream outputStream = new ObjectOutputStream(new FileOutputStream("student.dat"));
+            
             outputStream.writeObject(student1);
             outputStream.writeObject(student2);
             System.out.println("Students data saved to student.dat");
