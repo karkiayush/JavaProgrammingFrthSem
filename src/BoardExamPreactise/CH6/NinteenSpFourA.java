@@ -2,12 +2,11 @@ package BoardExamPreactise.CH6;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 
 public class NinteenSpFourA extends JFrame {
-    private JTextField radiusTextField;
-    private JLabel resultLabel;
+    JTextField radiusTextField;
+    JLabel resultLabel;
 
     public NinteenSpFourA() {
         setTitle("Circle Area Calculator");
