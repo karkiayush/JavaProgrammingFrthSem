@@ -1,16 +1,27 @@
 package BoardExamPreactise.CH2;
 
+import java.util.Scanner;
+
 abstract class Bike {
+    int chasssisNum = 33;
+    double bikePrice;
+
     abstract void run();
 
     void nonAbstract() {
         System.out.println("This is not a abstract method");
+        System.out.println("This bike can cost you around Rs. " + bikePrice);
     }
 }
 
 class AbstractClass extends Bike {
+    Scanner scan = new Scanner(System.in);
+
     void run() {
         System.out.println("running safely");
+        System.out.print("Enter the price of bike: ");
+        bikePrice = scan.nextDouble();
+
     }
 
     public static void main(String args[]) {
@@ -30,5 +41,6 @@ class AbstractClass extends Bike {
         Bike obj = new AbstractClass();
         obj.run();
         obj.nonAbstract();
+
     }
 }
