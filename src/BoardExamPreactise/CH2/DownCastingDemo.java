@@ -3,15 +3,12 @@ package BoardExamPreactise.CH2;
 abstract class Animal {
 
     abstract void makeSound();
-
 }
 
 class kukkur extends Animal {
 
     void makeSound() {
-
         System.out.println("Woof woof!");
-
     }
 }
 
