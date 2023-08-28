@@ -1,3 +1,5 @@
+
+
 public class ThirteenFallOneB {
     public static void main(String[] args) {
         int n = 4; // Number of rows in the pattern

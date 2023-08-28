@@ -1,4 +1,4 @@
-package BoardExamPreactise.CH1;
+
 public class StaticVarDemo {
     static int count; // This is a static variable
 
